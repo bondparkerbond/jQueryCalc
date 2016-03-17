@@ -1,0 +1,17 @@
+.button {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+
+.calculation-field {
+  height: 20px;
+}
+.output-field {
+  height: 20px;
+}
+
+.short {
+  width: 260px;
+  float: left;
+}
