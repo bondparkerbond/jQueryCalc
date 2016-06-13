@@ -39,8 +39,9 @@ $(document).ready(function() {
   $opButton.click(function() {
     firstNum == '' ? reuseNum() : (firstNum);
     operator == '' ? (operator = this.id) : fixScreen(this.id);
+    secondNum = "";
+    console.log(secondNum);
     $calcScreen.append(operator);
-    console.log(operator);
   });
 
   $clearScreen.click(function() {
